@@ -49,11 +49,13 @@ export default class Box extends Component {
     Animated.timing(this.state.submit, {
       toValue: -65,
       duration: 500,
+      useNativeDriver:false
     }).start();
 
     Animated.timing(this.state.fade, {
         toValue: 1,
         duration: 500,
+        useNativeDriver:false
       }).start();
 
       this.setState({toggle:0})
