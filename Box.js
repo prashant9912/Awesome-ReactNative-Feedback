@@ -91,7 +91,7 @@ export default class Box extends Component {
   <View style={{opacity:this.state.toggle==1?1:0,}}>
 
 
-            <Animatable.View animation={'fadeInUp'} ><Text style={{color:'#062E26',fontWeight:'bold',fontSize:20,textAlign:'center'}}>How was you Experience?</Text>
+            <Animatable.View animation={'fadeInUp'} ><Text style={{color:'#062E26',fontWeight:'bold',fontSize:20,textAlign:'center'}}>How was your Experience?</Text>
             
             <Text style={{textAlign:'center',color:'#8D9597',fontWeight:"bold",marginTop:10}}>It will help us to serve you better!</Text>
             </Animatable.View>
